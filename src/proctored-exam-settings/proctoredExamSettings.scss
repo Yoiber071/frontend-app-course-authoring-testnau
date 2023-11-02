@@ -1,0 +1,10 @@
+// legend styling should match label styling
+legend {
+  font-size: $spacer;
+  font-weight: 700;
+}
+
+// override conflicting browser styles
+select {
+  appearance: none;
+}
